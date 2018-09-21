@@ -45,4 +45,10 @@ Jsonproperty：json对象转字符串
 
 在接收参数的时候，外界的字符串通过请求传入，用某一个类接收，类中的属性名上加上@JsonAlias的注释，就可以获取到和属性名名称不同的字符串作为这个属性的属性值  
   
-传递返回值时，一个list中的对象或者一个对象他们的属性值是从
+传递返回值时，一个list中的对象或者一个对象他们的属性值是从数据库或其他地方获取的字符串，转成相应的属性值输出到前端  
+### RequestParam与PathVariabled的区别
+
+RequestParam和PathVariabled都是与get相关的获取参数方式  
+
+RequestParam是url中获取用&连接的参数  
+PathVariabled是url中获取{}中的参数
