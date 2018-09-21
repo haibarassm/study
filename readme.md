@@ -1,7 +1,9 @@
 # Spring boot
 安装.gradle 配合git，拉取项目文件  
 
-使用lombok 解决get set 问题
+使用lombok 解决get set 问题  
+
+使用gitprompt 增加git代码提示
 # Git
 ## 拉取项目
 git clone git上的项目地址
@@ -52,3 +54,12 @@ RequestParam和PathVariabled都是与get相关的获取参数方式
 
 RequestParam是url中获取用&连接的参数  
 PathVariabled是url中获取{}中的参数
+
+### require=false在不同位置的不同
+在@api中就是写写的  
+
+在@RequestParam中是真的可以不填的  
+
+搞错就400了
+
+
