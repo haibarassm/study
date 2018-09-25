@@ -62,4 +62,15 @@ PathVariabled是url中获取{}中的参数
 
 搞错就400了
 
+## 使用阿里云镜像仓库
+在 project-level 的 build.gradle中修改如下：
+```
+allprojects {   
+    repositories {  
+        //jcenter()
+        //maven{ url 'http://maven.oschina.net/content/groups/public/'}
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+    }
+}  
+```
 
