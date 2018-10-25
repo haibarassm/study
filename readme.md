@@ -5,6 +5,15 @@
 
 使用gitprompt 增加git代码提示
 # Git
+## 在git界面之外也有table提示
+Before installing posh-git make sure the following prerequisites have been met.
+
+1、Windows PowerShell 5.x or PowerShell Core 6.0. You can get PowerShell Core 6.0 for Windows, Linux or macOS from [here](https://github.com/PowerShell/PowerShell#get-powershell). Check your PowerShell version by executing $PSVersionTable.PSVersion.
+
+2、On Windows, script execution policy must be set to either RemoteSigned or Unrestricted. Check the script execution policy setting by executing Get-ExecutionPolicy. If the policy is not set to one of the two required values, run PowerShell as Administrator and execute Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm.
+
+3、Git must be installed and available via the PATH environment variable. Check that git is accessible from PowerShell by executing git --version from PowerShell. If git is not recognized as the name of a command, verify that you have Git installed. If not, install Git from https://git-scm.com. If you have Git installed, make sure the path to git is in your PATH environment variable.
+
 ## 拉取项目
 git clone git上的项目地址
 输入用户名和密码（若输错了，就到控制面板\用户帐户\凭据管理器\windows凭据删除原有凭据, 
@@ -73,4 +82,5 @@ allprojects {
     }
 }  
 ```
+
 
