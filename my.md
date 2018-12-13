@@ -1,0 +1,1 @@
+java -jar 名称.jar --spring.profiles.active=prod
